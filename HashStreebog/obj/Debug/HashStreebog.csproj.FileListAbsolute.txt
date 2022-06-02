@@ -1,0 +1,11 @@
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\bin\Debug\HashStreebog.exe.config
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\bin\Debug\HashStreebog.exe
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\bin\Debug\HashStreebog.pdb
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.csproj.AssemblyReference.cache
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.csproj.SuggestedBindingRedirects.cache
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.FormMain.resources
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.Properties.Resources.resources
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.csproj.GenerateResource.cache
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.exe
+C:\Users\Даниил\source\repos\HashStreebog\HashStreebog\obj\Debug\HashStreebog.pdb
