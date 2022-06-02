@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HashStreebog
 {
     internal class Streebog
     {
-        // Matrix A for MixColumns (L) function
+        // Матрица A для функции MixColumns (L)
         private ulong[] A = {
         0x8e20faa72ba0b470, 0x47107ddd9b505a38, 0xad08b0e0c3282d1c, 0xd8045870ef14980e,
         0x6c022c38f90a4c07, 0x3601161cf205268d, 0x1b8e0b0e798c13c8, 0x83478b07b2468764,
@@ -29,7 +26,7 @@ namespace HashStreebog
         0x07e095624504536c, 0x8d70c431ac02a736, 0xc83862965601dd1b, 0x641c314b2b8ee083
         };
 
-        // Substitution for SubBytes function
+        // Функция подстановки суббайтов
         private byte[] Sbox ={
         0xFC, 0xEE, 0xDD, 0x11, 0xCF, 0x6E, 0x31, 0x16, 0xFB, 0xC4, 0xFA, 0xDA, 0x23, 0xC5, 0x04, 0x4D,
         0xE9, 0x77, 0xF0, 0xDB, 0x93, 0x2E, 0x99, 0xBA, 0x17, 0x36, 0xF1, 0xBB, 0x14, 0xCD, 0x5F, 0xC1,
@@ -49,7 +46,7 @@ namespace HashStreebog
         0x59, 0xA6, 0x74, 0xD2, 0xE6, 0xF4, 0xB4, 0xC0, 0xD1, 0x66, 0xAF, 0xC2, 0x39, 0x4B, 0x63, 0xB6
         };
 
-        // Substitution for Transposition (P) function
+        // Замена функции транспозиции (P)
         private byte[] Tau ={
         0, 8, 16, 24, 32, 40, 48, 56,
         1, 9, 17, 25, 33, 41, 49, 57,
@@ -61,7 +58,7 @@ namespace HashStreebog
         7, 15, 23, 31, 39, 47, 55, 63
         };
 
-        // Constant values for KeySchedule function
+        // Постоянные значения для функции KeySchedule
         private byte[][] C = {
         new byte[64]{
         0xb1,0x08,0x5b,0xda,0x1e,0xca,0xda,0xe9,0xeb,0xcb,0x2f,0x81,0xc0,0x65,0x7c,0x1f,
@@ -270,6 +267,7 @@ namespace HashStreebog
             return newh;
         }
 
+        // заполенение матрицы пустыми байтами
         public byte[] GetHash(byte[] message)
         {
             byte[] paddedMes = new byte[64];
