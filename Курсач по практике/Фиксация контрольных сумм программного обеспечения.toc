@@ -1,0 +1,26 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{\numberline {1}Основы криптографии}{2}{}%
+\contentsline {section}{\numberline {1.1}История появления необходимости криптографии}{2}{}%
+\contentsline {section}{\numberline {1.2}Основные понятия криптографии и их реализации}{2}{}%
+\contentsline {chapter}{\numberline {2}Хэширование}{4}{}%
+\contentsline {section}{\numberline {2.1}Разновидности хэширования}{4}{}%
+\contentsline {section}{\numberline {2.2}SHA-1}{4}{}%
+\contentsline {subsection}{\numberline {2.2.1}Коллизии SHA-1}{4}{}%
+\contentsline {section}{\numberline {2.3}MD5}{5}{}%
+\contentsline {subsection}{\numberline {2.3.1}Уязвимости MD5}{6}{}%
+\contentsline {subsection}{\numberline {2.3.2}Атаки переборного типа}{6}{}%
+\contentsline {subsection}{\numberline {2.3.3}RainbowCrack}{6}{}%
+\contentsline {subsection}{\numberline {2.3.4}Коллизии MD5}{7}{}%
+\contentsline {chapter}{\numberline {3}Отечественные алгоритмы хэширования}{8}{}%
+\contentsline {section}{\numberline {3.1}Стрибог}{8}{}%
+\contentsline {subsection}{\numberline {3.1.1}Преобразования}{8}{}%
+\contentsline {subsection}{\numberline {3.1.2}Функция сжатия}{8}{}%
+\contentsline {subsection}{\numberline {3.1.3}Вычисление хеш-функции}{9}{}%
+\contentsline {section}{\numberline {3.2}Кузнечик}{10}{}%
+\contentsline {subsection}{\numberline {3.2.1}Преобразования}{10}{}%
+\contentsline {subsection}{\numberline {3.2.2}Выработка раундовых ключей}{11}{}%
+\contentsline {subsection}{\numberline {3.2.3}Шифрование и расшифрование}{11}{}%
+\contentsline {chapter}{\numberline {4}Реализация и использование программы Hash Streebog}{13}{}%
+\contentsline {subsection}{\numberline {4.0.1}Возможности Hash Streebog}{13}{}%
+\contentsline {subsection}{\numberline {4.0.2}Использование Hash Streebog}{13}{}%
+\contentsline {subsection}{\numberline {4.0.3}Литература и ссылки на скачивания}{14}{}%
